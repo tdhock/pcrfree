@@ -1,0 +1,17 @@
+** TODOs
+
+Look at genome coverage plots and label regions where there are
+visually obvious differences between PCR and PCRFree.
+
+** 27 Oct 2016
+
+[[file:gc.coverage.R]] reads data from abacus.
+
+[[file:figure-gc-coverage.R]] makes the following plot
+
+[[file:figure-gc-coverage.png]]
+
+The figures indicates that there are no 10KB bins which have very
+different coverage, between PCR and PCRFree. If there are any
+differences, then their signal is most likely lower than the noise of
+the coverage in these 10KB bins. 
