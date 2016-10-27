@@ -25,7 +25,8 @@ for(file.i in seq_along(txt.vec)){
 }
 gc.coverage <- do.call(rbind, gc.coverage.list)
 
-freadc("NULL"=6:8)
+
+##freadc("NULL"=6:8)
 ##  chr, start, end, coverage, gc, mean, stdev, zscore
 
 save(gc.coverage, file="gc.coverage.RData")

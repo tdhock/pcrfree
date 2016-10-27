@@ -1,5 +1,6 @@
 To reproduce the results, please copy the definition of =works_with_R=
-from [[https://github.com/tdhock/dotfiles/blob/master/.Rprofile]] to your ~/.Rprofile
+from [[https://github.com/tdhock/dotfiles/blob/master/.Rprofile]] to your
+=~/.Rprofile=, then type =make= at the command line.
 
 ** TODOs
 
