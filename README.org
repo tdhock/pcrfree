@@ -1,3 +1,6 @@
+To reproduce the results, please copy the definition of =works_with_R=
+from [[https://github.com/tdhock/dotfiles/blob/master/.Rprofile]] to your ~/.Rprofile
+
 ** TODOs
 
 Look at genome coverage plots and label regions where there are

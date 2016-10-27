@@ -1,6 +1,7 @@
-works_with_R("3.3.1",
-             data.table="1.9.7",
-             namedCapture="1.0")
+works_with_R(
+  "3.3.1",
+  data.table="1.9.7",
+  "tdhock/namedCapture@05175927a45c301a18e8c6ebae67ea39a842d264")
 
 txt.vec <- Sys.glob("/mnt/abaproject/mugqic/projects/alfredo_pcrfree_techdev_31/alignment/*/*.sorted.dup.recal.bam.depth.txt")
 
